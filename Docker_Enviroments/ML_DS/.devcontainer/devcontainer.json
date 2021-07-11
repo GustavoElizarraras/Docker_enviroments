@@ -19,6 +19,16 @@
 		"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
 		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
 		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
-    }
-    "extensions": ["ms-python.python", "eliverlara.andromeda"]
+        "workbench.colorTheme": "Andromeda"
+    },
+    "extensions": ["ms-python.python", "eliverlara.andromeda"],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [8888],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip3 install -r requirements.txt",
+
+	// Comment out to connect as root instead.
+	"remoteUser": "vscode"
 }
