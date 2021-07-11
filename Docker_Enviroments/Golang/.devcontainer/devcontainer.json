@@ -1,0 +1,23 @@
+{
+	"name": "Go",
+	"build": {
+		"dockerfile": "Dockerfile",
+
+	},
+	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+        "terminal.integrated.profiles.linux": "/bin/zsh", 
+		"go.toolsManagement.checkForUpdates": "local",
+		"go.gopath": "/go",
+		"go.useLanguageServer": true,
+        "workbench.colorTheme": "Night Owl"
+	},
+	
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"golang.Go",
+        "sdras.night-owl"
+	]
+}
