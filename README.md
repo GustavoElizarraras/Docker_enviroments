@@ -1,8 +1,8 @@
-# Docker Enviroments for VSCode
-This repo provides different enviroments made in Docker. One for Machine Learning and Data Science
+# Docker Environments for VSCode
+This repository provides different environments made in Docker. One for Machine Learning and Data Science
 using Python 3.8, the other for Golang, maybe there will be more in the future.
 
-## Requiriments
+## Requirements
 - Docker installed and running.
     - If you don't use Linux, share the directories ~/.ssh and the directory of your project with Docker Desktop
 - Docker Compose installed.
