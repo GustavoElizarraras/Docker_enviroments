@@ -3,9 +3,9 @@ This repository provides different environments made in Docker. One for Machine 
 using Python 3.8, the other for Golang, maybe there will be more in the future.
 
 <table><tr>
-<img src="https://i.morioh.com/9ccb7b143f.png" width="330" height="200"></img></tr>
-<tr><img src="https://i.morioh.com/2343c2078f.png
-" width="330" height="200"></img>
+<td><img src="https://i.morioh.com/9ccb7b143f.png" width="330" height="200"></img></td>
+<td><tr><img src="https://i.morioh.com/2343c2078f.png
+" width="330" height="200"></img></td>
 </tr></table>
 
 ## Requirements
