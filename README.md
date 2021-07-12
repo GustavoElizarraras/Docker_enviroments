@@ -4,7 +4,7 @@ using Python 3.8, the other for Golang, maybe there will be more in the future.
 
 <table><tr>
 <img src="https://i.morioh.com/9ccb7b143f.png" width="350" height="200"></img></tr>
-<tr><img src="https://miro.medium.com/max/1400/1*XxhLcQkalmwvuRTH5HXn1A@2x.jpeg
+<tr><img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*JfSp7LWmVE1nj15IrxWSWQ.png&w=1920&q=75
 " width="300" height="200"></img>
 </tr></table>
 
