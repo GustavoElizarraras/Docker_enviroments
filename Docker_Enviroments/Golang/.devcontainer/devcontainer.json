@@ -12,12 +12,23 @@
 		"go.toolsManagement.checkForUpdates": "local",
 		"go.gopath": "/go",
 		"go.useLanguageServer": true,
-        "workbench.colorTheme": "Night Owl"
+        "workbench.colorTheme": "Night Owl",
+		"workbench.iconTheme": "Sweet Vscode icons",
+		"gopls": {
+            "usePlaceholders": false,
+            "staticcheck": true
+        },
+        "go.autocompleteUnimportedPackages": true,
+        "go.gotoSymbol.includeImports": true,
+        "go.gotoSymbol.includeGoroot": true,
+        "go.lintTool": "golangci-lint"
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"golang.Go",
-        "sdras.night-owl"
+        "sdras.night-owl",
+		"eamodio.gitlens",
+		"eliverlara.sweet-vscode-icons"
 	]
 }
