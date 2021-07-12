@@ -2,11 +2,13 @@
 This repository provides different environments made in Docker. One for Machine Learning and Data Science
 using Python 3.8, the other for Golang, maybe there will be more in the future.
 
-<table><tr>
-<td><img src="https://i.morioh.com/9ccb7b143f.png" width="330" height="200"></img></td>
-<td><tr><img src="https://i.morioh.com/2343c2078f.png
-" width="330" height="200"></img></td>
-</tr></table>
+<table>
+<tr>
+    <td><img src="https://i.morioh.com/9ccb7b143f.png" width="310" height="200"></img></td>
+    <td><img src="https://i.morioh.com/2343c2078f.png
+    " width="310" height="200"></img></td>
+</tr>
+</table>
 
 ## Requirements
 - Docker installed and running.
