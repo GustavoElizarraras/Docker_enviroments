@@ -6,7 +6,6 @@
     },
 
     "settings":{
-        "terminal.integrated.profiles.linux": "/bin/zsh",
 		"python.pythonPath": "/usr/local/bin/python",
         "python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
