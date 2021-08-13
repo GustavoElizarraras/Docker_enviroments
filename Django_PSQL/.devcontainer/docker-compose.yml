@@ -1,7 +1,6 @@
 version: '3'
 
 services:
-
   db:
     image: postgres:latest
     restart: unless-stopped
@@ -16,9 +15,9 @@ services:
     build: .
     volumes:
       - .:/code:cached
-    command: python manage.py runserver 0.0.0.0:8000
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    # python3 manage.py runserver 0.0.0.0:8000, 
     depends_on:
       - db
-
 volumes:
   postgres-data:
