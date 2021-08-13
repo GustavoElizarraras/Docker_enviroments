@@ -2,7 +2,8 @@
     "name":"Python and PostgreSQL",
 
 	"dockerComposeFile": "docker-compose.yml",
-
+	"workspaceFolder" : "/code",
+	"service": "web",
     "settings":{
 		"python.pythonPath": "/usr/local/bin/python",
         "python.linting.enabled": true,
@@ -22,8 +23,8 @@
 				   "mtxr.sqltools", "mtxr.sqltools-driver-pg"],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8000,8080],
+	"forwardPorts": [8000, 8080, 5432, 54275],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install -r .devcontainer/requirements.txt"
+	"postCreateCommand": "pip3 install -r requirements.txt"
 }
