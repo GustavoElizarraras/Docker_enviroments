@@ -1,5 +1,4 @@
 FROM python:3.8
-WORKDIR /code
-COPY requirements.txt /code/
+WORKDIR /name_app
+COPY requirements.txt /name_app/
 RUN pip install -r requirements.txt
-COPY . /code/
