@@ -14,10 +14,10 @@ services:
   web:
     build: .
     volumes:
-      - .:/code:cached
+      - name_app:/name_app:cached
     command: /bin/sh -c "while sleep 1000; do :; done"
-    # python3 manage.py runserver 0.0.0.0:8000, 
     depends_on:
       - db
 volumes:
   postgres-data:
+  name_app:
