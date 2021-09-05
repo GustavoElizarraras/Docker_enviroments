@@ -14,10 +14,9 @@ services:
   web:
     build: .
     volumes:
-      - name_app:/name_app:cached
+      - absolute_path_to_app:/name_app:cached
     command: /bin/sh -c "while sleep 1000; do :; done"
     depends_on:
       - db
 volumes:
   postgres-data:
-  name_app:
